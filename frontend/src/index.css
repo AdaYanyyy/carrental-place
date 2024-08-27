@@ -1,0 +1,155 @@
+html,
+body {
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 14px;
+    line-height: 1.43;
+    color: #222;
+    background-color: #fff;
+    margin: 0;
+}
+
+/* .custom-class {
+    padding-top: 0px;
+    width: 95%;
+    margin: 0 auto;
+} */
+
+.evenRow {
+    background-color: #f7f7f7;
+}
+
+.oddRow {
+    background-color: #fff;
+}
+
+.greenText {
+    color: green;
+    font-weight: bold;
+}
+
+.redText {
+    color: lightcoral;
+    font-weight: bold;
+}
+
+.boldText {
+    font-weight: bold;
+}
+
+.blueText {
+    color: lightblue;
+    font-weight: bold;
+}
+
+.outlet {
+    padding-top: 60px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1) !important;
+}
+
+
+
+
+.m-b-20 {
+    margin-bottom: 20px !important;
+}
+
+.m-t-20 {
+    margin-top: 20px !important;
+}
+
+.m-l-10 {
+    margin-left: 10px !important;
+}
+
+.space-card {
+    cursor: pointer;
+}
+
+.space-card:hover {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 16px;
+}
+
+.card-address {
+    margin: 0;
+    font-size: 14px;
+    height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+
+.wrap {
+    width: 100%;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+.card-price {
+    margin: 0;
+    font-weight: bold;
+}
+
+.space-image {
+    display: block;
+}
+
+.image-box {
+    position: relative;
+    display: inline-block;
+}
+
+.image-box:hover .del-box {
+    display: flex;
+}
+
+.del-box {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.reserve-box {
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 16px;
+}
+
+.m-r-20 {
+    margin-right: 20px !important;
+}
+
+.statusBooked {
+    background-color: #4caf50;
+    color: white;
+    padding: 3px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.statusCancelled {
+    background-color: #f44336;
+    color: white;
+    padding: 3px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.statusCompleted {
+    background-color: #2196f3;
+    color: white;
+    padding: 3px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+}

@@ -1,0 +1,7 @@
+Django
+djangorestframework
+djangorestframework-jwt
+djangorestframework-simplejwt
+docopt
+drf-yasg
+PyJWT
